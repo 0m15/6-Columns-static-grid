@@ -1,8 +1,13 @@
 This is my own css grid framework.
 
-It is based on a baseline of 1.4x the paragraph text-size, setted to 13px.
+It comes in two versions:
+
+- 13px text body / 1.4 line-height
+- 16px text body / 1.4 line-height
+
 Each column is 160px, with a gutter of 20px.
 
 I tried to be very light, since I use this as a very starting-point of grid based web design.
 
-A simple demo page is available here: http://publikcollective.com/grids/sandbox.html
+A simple demo page is available here: http://publikcollective.com/grids/sandbox.html (13px)
+A simple demo page is available here: http://publikcollective.com/grids/sandbox_16px.html (16px)
