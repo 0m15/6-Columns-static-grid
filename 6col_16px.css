@@ -1,0 +1,52 @@
+/* 
+	@6col baseline grid 16px/1.4
+	This is my personal grid framework,
+	it is based on a 6-column grid,
+	each column is 60px with 20px gutters.
+	The baseline is 1.4of the paragraph font size, 
+	which is 16px.
+*/
+
+/* @simple reset */
+body,ul,li,div,p,h1,h2,h3,h4,h5,h6  
+{ margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align: baseline;background: transparent;line-height: 1.385em;}
+ol, ul {list-style: none;}
+
+/* @helpers (for development) */
+.wrapper, .wrapper_two, .wrapper_four {background: url(helpers/baseline_16px.png);}
+body {font-family: Georgia, Helvetica, arial, sans-serif;color:#666;}
+.light { background: #e2eaed; }
+.middle { background: #999; }
+.dark { background: #444;color:#fff; }
+
+/* @grid */
+.wrapper {width:960px; margin:0 auto;}
+.wrapper_two { width:640px;margin:0 auto;}
+.wrapper_four { width:320px;margin:0 auto;}
+.one, .two, .three, .four, .five, .six, .outer_one, .outer_two, .outer_three, .outer_four, .outer_five, .golden_one, .golden_two {margin:0 10px;display:inline;float:left;margin-bottom:44px;}
+.six { width:940px; }
+.five { width:780px; }
+.four { width:620px; }
+.three { width:460px; }
+.two { width:300px; }
+.one { width: 140px; }
+.half { width:70px; }
+.outer_five { padding-left:800px;}
+.outer_four { padding-left:640px; }
+.outer_three { padding-left:480px;}
+.outer_two { padding-left:320px;}
+.outer_one { padding-left:160px;}
+.golden_one { width:573px;}
+.golden_two { width:347px;}
+.clear { clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+
+/* @typography */
+/* header text is designed on the baseline */
+h1 { font-size:64px; }
+h2 { font-size:48px;}
+h3 { font-size:32px; }
+h4 { font-size:16px; }
+p { font-size:16px; }
+
+
+
