@@ -1,7 +1,7 @@
 /* 
 	@6col baseline grid 
 	This is my personal grid framework,
-	it is based on a 7-column grid,
+	it is based on a 6-column grid,
 	each column is 60px with 20px gutters.
 	The baseline is 1.4 of the paragraph font size, 
 	which is 13px.
@@ -22,7 +22,6 @@ body {background: url(helpers/baseline.png) 0 0px repeat;font-family: Georgia, H
 .wrapper {width:960px; margin:0 auto;}
 .wrapper_two { width:640px;margin:0 auto;}
 .wrapper_four { width:320px;margin:0 auto;}
-
 .one, .two, .three, .four, .five, .six, .outer_one, .outer_two, .outer_three, .outer_four, .outer_five {margin:0 10px;display:inline;float:left;margin-bottom:18px;}
 .six { width:940px; }
 .five { width:780px; }
@@ -36,13 +35,13 @@ body {background: url(helpers/baseline.png) 0 0px repeat;font-family: Georgia, H
 .outer_three { padding-left:480px;}
 .outer_two { padding-left:320px;}
 .outer_one { padding-left:160px;}
-
 .clear { clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
 
 /* @typography */
-h1 { font-size:52px; } /* 13px x 4 = 52px */
-h2 { font-size:39px; } /* 14px x 2 = 28px */
-h3 { font-size:26px; } /* 14px x 1.5 = 21px */
-h4 { font-size:13px; } /* 14px x 1.5 = 21px */
+/* header text is designed on the baseline */
+h1 { font-size:52px; }
+h2 { font-size:39px; }
+h3 { font-size:26px; }
+h4 { font-size:13px; }
 p { font-size:13px; }
 
