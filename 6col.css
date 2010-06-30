@@ -13,8 +13,8 @@ body,ul,li,div,p,h1,h2,h3,h4,h5,h6
 ol, ul {list-style: none;}
 
 /* @helpers (for development) */
-body {background: url(helpers/baseline.png) repeat;font-family: Georgia, Helvetica, arial, sans-serif;color:#333;}
-.light { background: #ddd; }
+body {background: url(helpers/baseline.png) repeat;font-family: Georgia, Helvetica, arial, sans-serif;color:#666;}
+.light { background: #e2eaed; }
 .middle { background: #999; }
 .dark { background: #444;color:#fff; }
 
@@ -22,7 +22,7 @@ body {background: url(helpers/baseline.png) repeat;font-family: Georgia, Helveti
 .wrapper {width:960px; margin:0 auto;}
 .wrapper_two { width:640px;margin:0 auto;}
 .wrapper_four { width:320px;margin:0 auto;}
-.one, .two, .three, .four, .five, .six, .outer_one, .outer_two, .outer_three, .outer_four, .outer_five, .golden_one, .golden_two {margin:0 10px;display:inline;float:left;margin-bottom:18px;}
+.one, .two, .three, .four, .five, .six, .outer_one, .outer_two, .outer_three, .outer_four, .outer_five, .golden_one, .golden_two {margin:0 10px;display:inline;float:left;margin-bottom:36px;}
 .six { width:940px; }
 .five { width:780px; }
 .four { width:620px; }
@@ -42,7 +42,7 @@ body {background: url(helpers/baseline.png) repeat;font-family: Georgia, Helveti
 /* @typography */
 /* header text is designed on the baseline */
 h1 { font-size:52px; }
-h2 { font-size:39px; }
+h2 { font-size:39px;}
 h3 { font-size:26px; }
 h4 { font-size:13px; }
 p { font-size:13px; }
