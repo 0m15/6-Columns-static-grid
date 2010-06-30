@@ -13,7 +13,7 @@ body,ul,li,div,p,h1,h2,h3,h4,h5,h6
 ol, ul {list-style: none;}
 
 /* @helpers (for development) */
-body {background: url(helpers/baseline.png) repeat;font-family: Georgia, Helvetica, arial, sans-serif;color:#666;}
+body {background: url(helpers/baseline.png) -9px 0 repeat;font-family: Georgia, Helvetica, arial, sans-serif;color:#666;}
 .light { background: #e2eaed; }
 .middle { background: #999; }
 .dark { background: #444;color:#fff; }
