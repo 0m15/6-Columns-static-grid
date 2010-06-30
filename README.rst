@@ -1,4 +1,4 @@
-** 6 Columns baseline grid **
+6 Columns baseline grid
 
 This is my own css grid framework.
 
