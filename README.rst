@@ -1,3 +1,5 @@
+** 6 Columns baseline grid **
+
 This is my own css grid framework.
 
 It comes in two versions:
@@ -9,5 +11,6 @@ Each column is 160px, with a gutter of 20px.
 
 I tried to be very light, since I use this as a very starting-point of grid based web design.
 
-A simple demo page is available here: http://publikcollective.com/grids/sandbox.html (13px)
-A simple demo page is available here: http://publikcollective.com/grids/sandbox_16px.html (16px)
+A simple demo page is available here: 
+- http://publikcollective.com/grids/sandbox.html (13px)
+- http://publikcollective.com/grids/sandbox_16px.html (16px)
